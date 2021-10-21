@@ -1,0 +1,121 @@
+.NavbarDashboard{
+    background-color: #7A57FD;
+}
+
+.NavbarDashboard img{
+    background-color: white;
+    margin-right: 80px;
+    width: 7%;
+}
+
+.NavbarDashboard button{
+    margin-right: -30px;
+}
+
+.FirstContainer{
+    height: 200px;
+    margin-top: 40px;
+    background-color: white;
+}
+
+.FirstContainer h3{
+    text-align: justify;
+}
+
+.FirstContainer p{
+    text-align: justify;
+}
+
+.estrelas input[type=radio] {
+    display: none;
+  }
+  .estrelas label i.fa{
+    font-size: 1.8em
+  }
+  .estrelas label i.fa:before {
+    content:'\f005';
+    color: #FC0;
+  }
+  .estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+  }
+
+  .textCard{
+      font-size: 20px;
+      text-align: left;
+      font-weight: bold;
+      color: #200E64;
+      
+  }
+
+  .lessonsBtn{
+    margin-left: 200px;
+    margin-top: -50px;
+    background-color: #CFC9E9;
+}
+
+
+
+@media screen and (min-width: 767px) {
+    .NavbarDashboard h1{
+        margin-left: 200px;
+        font-size: 30px;
+    }
+
+    .NavbarDashboard li{
+        margin-left: 30px;
+    }
+
+    .buttonNavbar{
+        background-color: #331699;
+        margin-right: 50px;
+    }
+
+    .NavbarDashboard img{
+        background-color: white;
+        margin-right: 80px;
+        width: 2%;
+    }
+
+    .estrelas{
+        margin-left: -180px;
+    }
+
+    .bolls .col-4{
+        width: 20px;
+        height: 20px;
+        background-color: #634abe;
+        margin: 5px;
+        border-radius: 100%;
+    }
+    
+    .bolls{
+        margin-left: 760px;
+    }
+      
+    footer{
+        background-color: white;
+    }
+
+   
+}
+
+@media screen and (max-width: 767px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        margin-top: 20px;
+    }
+
+    .FirstContainer{
+        font-size: 10px;
+    }
+
+    .estrelas{
+        margin-left: -200px;
+    }
+
+}

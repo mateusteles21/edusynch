@@ -1,0 +1,117 @@
+.image{
+    width: 18%;
+    margin-left: -100px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.shape{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 100px;
+}
+
+.shape2{
+    width: 20%;
+    margin-left: -200px;
+    position: absolute;
+}
+
+
+.btnGet{
+    color:#7955E8 ;
+    margin-right: 50px;
+}
+
+.modal{
+    background-color: #7955E8;
+}
+
+@media screen and (min-width:767px) {
+    
+.colForm{
+    margin-top: 100px;
+    margin-left: -100px;
+    text-align: justify;
+    color: white;
+}
+
+.colForm .h1{
+    color: burlywood;
+}
+
+.Teacher{
+    border: 1px solid white;
+    background-color: #7955E8;
+    border-radius: 5px;
+    height: 50px;
+    width: 160px;
+}
+
+.Teacher label{
+    margin-top: 10px;
+}
+
+.btnsearch{
+    width: 160px;
+    height: 50px;
+    color:#7955E8 ;
+}
+}
+
+@media screen and (max-width:767px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .colForm p{
+        display: none;
+    }
+
+    .image{
+        width: 30%;
+        margin-left: 50px;
+        margin-top: 480px;
+        position: absolute;
+    }
+    
+    .shape{
+        position: absolute;
+        display: none;
+    }
+    
+    .shape2{
+        width: 30%;
+        margin-top: 500px;
+        margin-left: 00px;
+        position: absolute;
+    }
+    .colForm{
+        margin-left: 50px;
+        text-align: justify;
+        color: white;
+    }
+    
+    .colForm .h1{
+        color: burlywood;
+    }
+    
+    .Teacher{
+        border: 1px solid white;
+        background-color: #7955E8;
+        border-radius: 5px;
+        height: 50px;
+        width: 160px;
+    }
+    
+    .Teacher label{
+        margin-top: 10px;
+    }
+    
+    .btnsearch{
+        width: 160px;
+        height: 50px;
+        color:#7955E8 ;
+    }
+}
